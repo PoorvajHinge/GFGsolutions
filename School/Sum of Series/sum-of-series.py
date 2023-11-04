@@ -5,9 +5,8 @@ class Solution:
 	
 	def seriesSum(self,n):
 	    # code here
-	    return (n*(n+1))//2
- 
-
+	    return int(n*(n+1)//2)
+	    
 
 #{ 
  # Driver Code Starts
