@@ -4,13 +4,9 @@
 class Solution:
     def missingNumber(self,array,n):
         # code here
-        sum_ser=(n*(n+1))//2
-        sum_arr=0
-        for i in array:
-            sum_arr+=i
-        return sum_ser - sum_arr
-            
-            
+        array.sort()
+        missing=int(n*(n+1)/2-sum(array))
+        return missing
 
 
 #{ 
