@@ -4,7 +4,7 @@ class Solution:
 	def printArray(self,arr, n):
 	    # code here
 	    for i in arr:
-	        print(i,end=' ')
+	        print(i,end=" ")
 
 
 #{ 
