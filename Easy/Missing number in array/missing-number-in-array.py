@@ -1,12 +1,22 @@
 #User function Template for python3
 
 
+
 class Solution:
     def missingNumber(self,array,n):
         # code here
-        array.sort()
-        missing=int(n*(n+1)/2-sum(array))
-        return missing
+        # sum_ser=(n*(n+1))//2
+        # sum_arr=0
+        # for i in array:
+        #     sum_arr+=i
+        # return sum_ser - sum_arr
+        
+        #sol2:
+        n=len(array)+1
+        return ((n*(n+1)//2)-sum(array))
+            
+            
+
 
 
 #{ 
